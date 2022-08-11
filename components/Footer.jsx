@@ -50,7 +50,7 @@ function Footer() {
 
 			<div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-50">
 				<h1 className=" text-gray-800 font-semibold">
-					© 2022 All rights reserved | Build by Sujin An
+					© 2022 All rights reserved | Build by Sujin Jinny An
 				</h1>
 			</div>
 		</>
