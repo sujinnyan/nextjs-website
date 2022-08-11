@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 html {
   scroll-behavior: smooth;
-  font-family: 'Mulish', sans-serif;
+  font-family:'Figtree', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: rgb(138, 172, 213);
 }
+
 
 .custom-img  {
   background-image: url(https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
@@ -17,6 +20,7 @@ button, li, a, span{
 }
 
 .title_text {
-  font-family: 'Merriweather', serif;
-  
+  font-weight: 900;
+  font-size: 4rem;
+  font-family: inherit;
 }
